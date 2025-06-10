@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Fornecedor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Fornecedor</h1>
+    <form action="processa_cadastro.php" method="POST">
+        <input type="text" name="nome_fantasia" placeholder="Nome Fantasia" required><br>
+        <input type="text" name="razao_social" placeholder="Razão Social" required><br>
+        <input type="text" name="cnpj" placeholder="CNPJ" required><br>
+        <input type="text" name="inscricao_estadual" placeholder="Inscrição Estadual"><br>
+        <input type="text" name="inscricao_municipal" placeholder="Inscrição Municipal"><br>
+        <input type="text" name="telefone_principal" placeholder="Telefone Principal"><br>
+        <input type="email" name="email_contato" placeholder="E-mail de Contato"><br><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <br>
+    <a href="lista_fornecedores.php">Ver Lista de Fornecedores</a>
+</body>
+</html>
